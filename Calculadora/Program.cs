@@ -67,4 +67,22 @@ segundoNumero = int.Parse(Console.ReadLine());
 
 calc.Potencia(primeiroNumero, segundoNumero);
 
+Console.WriteLine("CALCULANDO VALORES DO TRIANGULO");
+
+Console.WriteLine("Seno");
+Console.Write("Digite o valor do angulo: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+calc.Seno(primeiroNumero);
+
+Console.WriteLine();
+Console.WriteLine("Coseno");
+Console.Write("Digite o valor do angulo: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+calc.Coseno(primeiroNumero);
+
+Console.WriteLine();
+Console.WriteLine("Tangente");
+Console.Write("Digite o valor do angulo: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+calc.Tangente(primeiroNumero);
 
