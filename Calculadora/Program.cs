@@ -101,3 +101,10 @@ primeiroNumero = int.Parse(Console.ReadLine());
 primeiroNumero--;
 Console.WriteLine($"O número digitado foi decrementado para: {primeiroNumero}");
 
+Console.WriteLine();
+
+Console.WriteLine("RAIZ QUADRADA");
+Console.Write("Digite um número para calcular a raiz: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+calc.RaizQuadrada(primeiroNumero);
+
