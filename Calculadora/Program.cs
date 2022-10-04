@@ -86,3 +86,18 @@ Console.Write("Digite o valor do angulo: ");
 primeiroNumero = int.Parse(Console.ReadLine());
 calc.Tangente(primeiroNumero);
 
+Console.WriteLine();
+
+Console.WriteLine("INCREMENTANDO E DECREMENTANDO NÚMEROS");
+Console.Write("Digite o número que será incrementado: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+primeiroNumero++;
+Console.WriteLine($"O número digitado foi incrementado para: {primeiroNumero}");
+
+Console.WriteLine();
+
+Console.Write("Digite o número que será decrementado: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+primeiroNumero--;
+Console.WriteLine($"O número digitado foi decrementado para: {primeiroNumero}");
+
