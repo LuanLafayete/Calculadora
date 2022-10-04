@@ -56,4 +56,15 @@ segundoNumero = int.Parse(Console.ReadLine());
 
 calc.Resto(primeiroNumero, segundoNumero);
 
+Console.WriteLine();
+
+Console.WriteLine("Potenciação");
+Console.Write("Digite o número: ");
+primeiroNumero = int.Parse(Console.ReadLine());
+
+Console.Write("Digite o elevado do primeiro número: ");
+segundoNumero = int.Parse(Console.ReadLine());
+
+calc.Potencia(primeiroNumero, segundoNumero);
+
 

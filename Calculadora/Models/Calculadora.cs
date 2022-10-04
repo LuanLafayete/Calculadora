@@ -31,5 +31,11 @@ namespace ExemplosFundamentos.Models
         {
             Console.WriteLine($"O resto de {x} e {y} é = {x % y}");
         }
+
+        public void Potencia(int x, int y)
+        {
+            double pot = Math.Pow(x, y);
+            Console.WriteLine($"{x} elevado a {y} é = {pot}");
+        }
     }
 }
